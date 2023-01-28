@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agency Website Template</title>
+  <!-- FontAwesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/demo-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- * Banner Section -->
+  <section id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="promo-title">BEST DIGITAL AGENCY</p>
+          <p>Subscribe easy tutorials Youtube channel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+            quos animi eius ut omnis sit.</p>
+          <a href="#"><img src="./images/play.png" class="play-btn" alt="">Watch Tutorials</a>
+        </div>
+        <div class="col-md-6">
+          <img src="./images/home2.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+    <img src="./images/wave1.png" class="bottom-img" alt="">
+  </section>
+
+  <!-- * Services section -->
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./images/service1.png" class="services-img" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Boostrap Javascript Files -->
+  <script src="./bootstrap/bootstrap.bundle.js"></script>
+  <script src="./bootstrap/bootstrap.js"></script>
 </body>
+
 </html>

@@ -26,19 +26,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#top">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="#about-us">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#testimonials">Testimonials</a>
             </li>
             <li>
-              <a href="#" class="nav-link">Contact</a>
+              <a href="#footer" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
@@ -150,7 +150,42 @@
     </div>
   </section>
 
-  <!-- Boostrap Javascript Files -->
+  <!-- * footer section -->
+  <section id="footer">
+    <img src="./images/wave2.png" class="footer-img" alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-box">
+          <img src="./images/demo-logo.png" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequuntur nisi nesciunt sint illo, animi vel, modi quidem voluptates quasi dolores est repellat quod assumenda.</p>
+        </div>
+        <div class="col-md-4 footer-box">
+          <p><b>CONTACT US</b></p>
+          <p><i class="fa-solid fa-location-dot"></i> World Trade Center, Mirpurkhas</p>
+          <p><i class="fa-solid fa-phone"></i> +1 234 567890</p>
+          <p><i class="fa-solid fa-envelope"></i> abcdomain@xyz.com</p>
+        </div>
+        <div class="col-md-4 footer-box">
+          <p><b>SUBSCRIBE NEWSLETTER</b></p>
+          <input type="email" name="" id="" class="form-control" placeholder="Your Email">
+          <input type="button" value="Subscribe" class="btn btn-primary">
+        </div>
+      </div>
+      <hr>
+      <p class="lisence">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.</p>
+    </div>
+
+
+  </section>
+
+
+  <!-- & Smooth Scroll -->
+  <script src="./smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+
+  <!-- ^ Boostrap Javascript Files -->
   <script src="./bootstrap/bootstrap.bundle.js"></script>
   <script src="./bootstrap/bootstrap.js"></script>
 </body>

@@ -178,3 +178,24 @@ body {
   display: inline-block;
   font-size: 12px;
 }
+
+/* * Social media section */
+#social-media {
+  background-color: #f8f8fa;
+  padding: 100px 0;
+}
+
+#social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.social-icons img {
+  width: 60px;
+  transition: .5s;
+}
+
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
